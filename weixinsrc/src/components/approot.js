@@ -6,16 +6,22 @@ import { connect } from 'react-redux';
 import {map_setmapinited, carmapshow_destorymap, ui_setmapstyle} from '../actions';
 import { Route,Redirect,Switch} from 'react-router-dom';
 
+
 import Index from './index/';
 import Login from './login';
+
+
 import "../css/common.css";
+
 
 class AppRoot extends React.Component {
 
     componentWillMount() {
+        
     }
 
     componentWillUnmount() {
+        
     }
 
     render() {
