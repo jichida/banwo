@@ -9,3 +9,10 @@
     font-weight: 200;
     border:none;
 }
+.AppContainer {
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	position: relative;
+}
