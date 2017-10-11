@@ -66,12 +66,7 @@ const inputData = (state) => { return state; };
 const inputDispatchToProps = (dispatch) => {
   	return {
 	    onError:(err)=>{
-	      	let toast = {
-			    show : true,
-			    text : err,
-			    type : "warning"
-			}
-			dispatch(set_weui({ toast }));
+	      	console.log(`input error:${err}`);
 	    },
 	}
 };
@@ -85,7 +80,7 @@ let InputValidation = (props) => {
 	style = err1||err2?"formvalidation form_input warning":"formvalidation form_input";
 	return (
 	  	<div className={style}>
-		    <input {...input} placeholder={placeholder} type={type}/>
+		    <input {...input} placeholder={placeholder} type={type} />
 		    {	touched &&
 		    	((error &&
 		    		<span

@@ -5,5 +5,7 @@ import { polyglotReducer } from 'redux-polyglot';
 import userlogin from './userlogin';
 
 export default combineReducers({
+	form: formReducer,
+	router: routerReducer,
 	userlogin
 });
