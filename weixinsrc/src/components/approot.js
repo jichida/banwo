@@ -9,6 +9,8 @@ import { Route,Redirect,Switch} from 'react-router-dom';
 
 import Index from './index/';
 import Login from './login';
+import Register from './register';
+import Register2 from './register/step2';
 import Loginsel from './login/sel';
 
 
@@ -32,6 +34,8 @@ class AppRoot extends React.Component {
                     <Route exact path="/" component={()=>(<Redirect to="/index"/>)} />
                     <Route path="/index" component={Index} />
                     <Route path="/login" component={Login} />
+                    <Route path="/register" component={Register} />
+                    <Route path="/register2" component={Register2} />
                     <Route path="/loginsel" component={Loginsel} />
                 </Switch>
             </div>
