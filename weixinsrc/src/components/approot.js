@@ -13,6 +13,7 @@ import Register from './register';
 import Register2 from './register/step2';
 import Resetpwd from './resetpwd';
 import Resetpwd2 from './resetpwd/step2';
+import Opendevice from './opendevice';
 import Loginsel from './login/sel';
 
 
@@ -40,6 +41,8 @@ class AppRoot extends React.Component {
                     <Route path="/register2" component={Register2} />
                     <Route path="/resetpwd" component={Resetpwd} />
                     <Route path="/resetpwd2" component={Resetpwd2} />
+                    <Route path="/opendevice" component={Opendevice} />
+                    
                     <Route path="/loginsel" component={Loginsel} />
                 </Switch>
             </div>

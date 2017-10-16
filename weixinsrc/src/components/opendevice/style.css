@@ -1,0 +1,78 @@
+.indexPage{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+	-moz-box-direction:normal;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+}
+.indexPage .mapcomponent{
+	flex-grow: 1;
+	background:#EEE;
+}
+.indexPage .bottomlnk{
+	margin-top: -40px;
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	position: relative;
+   	-moz-box-direction:normal;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+}
+.indexPage .bottomlnk .bg{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	margin-bottom: -1px;
+}
+.indexPage .bottomlnk .bg img{
+	width: 100%;
+	margin: 0;
+	align-self: flex-end;
+}
+.opendevicecontent {
+	text-align: center;
+}
+.opendevicecontent .tit{
+	padding: 30px 0 50px 0;
+}
+.opendevicecontent .tit .t{
+	font-size: 28px;
+	font-weight: 600;
+}
+.opendevicecontent .progress img{
+	margin-bottom: 30px;
+}
+.opendevicecontent .progress .progressline{
+	background:#C00;
+	height: 10px;
+	margin: 0 20%;
+	border-radius: 10px;
+	background: #fee9a7;
+	position: relative;
+}
+.opendevicecontent .progress .progressline span{
+	background: #fdab00;
+	position: absolute;
+	height: 10px;
+	width: 60%;
+	left: 0;
+	top:0;
+	border-radius: 10px;
+}
+.opendevicecontent .progress span.percentage{
+	margin: 10px 0 20px 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fdab00;
+	display: block;
+}
+.opendevicecontent .devicecode{
+	margin-bottom: 20px;
+}
+
+
