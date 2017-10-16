@@ -77,7 +77,7 @@ class Page extends React.Component {
     
     render() {
         return (
-            <div className="loginPage AppPage">
+            <div className="loginPage registerPage AppPage">
                 <img src={loginbg} className="bg" />
                 <PageForm onClickLogin={this.onClickLoginfn} />
             </div>
