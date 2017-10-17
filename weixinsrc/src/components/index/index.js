@@ -21,7 +21,7 @@ class Page extends React.Component {
 	                		<Icon number={11} width={50} height={50} />
 	                		<span>个人中心</span>
 	                	</div>
-	                	<div className="centerlnk" onClick={()=>{this.props.history.push("/scanning")}}>
+	                	<div className="centerlnk" onClick={()=>{this.props.history.push("/opendoor")}}>
 	                		<img src={Scanning} width="40" />
 	                		<span>扫码开门</span>
 	                	</div>

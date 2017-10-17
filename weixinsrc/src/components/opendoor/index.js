@@ -12,7 +12,7 @@ class Page extends React.Component {
 	
     render() {
         return (
-            <div className="indexPage opendevice AppPage" style={{height:`${window.innerHeight}px`}}>
+            <div className="opendevicePage AppPage" style={{height:`${window.innerHeight}px`}}>
                 <div className="mapcomponent">Map 组件</div>
                 <div className="bottomlnk">
                 	<div className="bg"><img src={Circleborder} /></div>

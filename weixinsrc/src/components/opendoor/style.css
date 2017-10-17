@@ -1,4 +1,4 @@
-.indexPage{
+.opendevicePage{
 	display: -webkit-box;
     display: -ms-flexbox;
    	display: flex;
@@ -7,11 +7,11 @@
 	flex-direction:column;
 	-webkit-flex-direction:column;
 }
-.indexPage .mapcomponent{
+.opendevicePage .mapcomponent{
 	flex-grow: 1;
 	background:#EEE;
 }
-.indexPage .bottomlnk{
+.opendevicePage .bottomlnk{
 	margin-top: -40px;
 	display: -webkit-box;
     display: -ms-flexbox;
@@ -22,32 +22,32 @@
 	flex-direction:column;
 	-webkit-flex-direction:column;
 }
-.indexPage .bottomlnk .bg{
+.opendevicePage .bottomlnk .bg{
 	display: -webkit-box;
     display: -ms-flexbox;
    	display: flex;
    	display: -webkit-flex;
    	margin-bottom: -1px;
 }
-.indexPage .bottomlnk .bg img{
+.opendevicePage .bottomlnk .bg img{
 	width: 100%;
 	margin: 0;
 	align-self: flex-end;
 }
-.opendevicecontent {
+.opendevicePage .opendevicecontent {
 	text-align: center;
 }
-.opendevicecontent .tit{
+.opendevicePage .opendevicecontent .tit{
 	padding: 30px 0 50px 0;
 }
-.opendevicecontent .tit .t{
+.opendevicePage .opendevicecontent .tit .t{
 	font-size: 28px;
 	font-weight: 600;
 }
-.opendevicecontent .progress img{
+.opendevicePage .opendevicecontent .progress img{
 	margin-bottom: 30px;
 }
-.opendevicecontent .progress .progressline{
+.opendevicePage .opendevicecontent .progress .progressline{
 	background:#C00;
 	height: 10px;
 	margin: 0 20%;
@@ -55,7 +55,7 @@
 	background: #fee9a7;
 	position: relative;
 }
-.opendevicecontent .progress .progressline span{
+.opendevicePage .opendevicecontent .progress .progressline span{
 	background: #fdab00;
 	position: absolute;
 	height: 10px;
@@ -64,14 +64,14 @@
 	top:0;
 	border-radius: 10px;
 }
-.opendevicecontent .progress span.percentage{
+.opendevicePage .opendevicecontent .progress span.percentage{
 	margin: 10px 0 20px 0;
 	font-size: 16px;
 	font-weight: 600;
 	color: #fdab00;
 	display: block;
 }
-.opendevicecontent .devicecode{
+.opendevicePage .opendevicecontent .devicecode{
 	margin-bottom: 20px;
 }
 

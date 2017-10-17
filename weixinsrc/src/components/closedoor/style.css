@@ -1,0 +1,117 @@
+.closedoorPage{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+	-moz-box-direction:normal;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+}
+.closedoorPage .mapcomponent{
+	flex-grow: 1;
+	background:#EEE;
+}
+.closedoorPage .bottomlnk{
+	margin-top: -40px;
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	position: relative;
+   	-moz-box-direction:normal;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+}
+.closedoorPage .bottomlnk .bg{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	margin-bottom: -1px;
+}
+.closedoorPage .bottomlnk .bg img{
+	width: 100%;
+	margin: 0;
+	align-self: flex-end;
+}
+.closedoorPage .opendevicecontent {
+	text-align: center;
+}
+.closedoorPage .opendevicecontent .tit{
+	display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	-moz-box-direction:normal;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.closedoorPage .opendevicecontent .tit .title{
+	font-size: 28px;
+	color: #ffb400;
+	font-weight: 600;
+}
+.closedoorPage .opendevicecontent .tit .c{
+	margin: 10px 0 5px 0;
+}
+.closedoorPage .opendevicecontent .tit .c2{
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.closedoorPage .opendevicecontent .cashier{
+    display: -webkit-box;
+    display: -ms-flexbox;
+   	display: flex;
+   	display: -webkit-flex;
+   	-moz-box-direction:normal;
+	flex-direction:column;
+	-webkit-flex-direction:column;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.closedoorPage .opendevicecontent .cashier{
+	margin-bottom: 20px;
+}
+.closedoorPage .opendevicecontent .cost .number b{
+	font-size: 40px;
+	font-weight: 600;
+}
+.closedoorPage .opendevicecontent .cost .number i{
+	font-style: normal;
+	margin-left: 3px;
+}
+.closedoorPage .opendevicecontent .backbtn{
+	margin-bottom: 10px;
+	color: #ffb400;
+	background: #ffa303; /* 一些不支持背景渐变的浏览器 */  
+    background: -webkit-linear-gradient(45deg, #ffa303, #ffd902); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(45deg, #ffa303, #ffd902); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(45deg, #ffa303, #ffd902); /* Firefox 3.6 - 15 */
+    background: linear-gradient(45deg, #ffa303, #ffd902); /* 标准的语法（必须放在最后） */
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 15%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    box-shadow: 1px 6px 10px rgba(255,160,0,.3);
+}
+.closedoorPage .opendevicecontent .tishi{
+	color: #999;
+	margin-bottom: 20px;
+}
+
+

@@ -13,8 +13,11 @@ import Register from './register';
 import Register2 from './register/step2';
 import Resetpwd from './resetpwd';
 import Resetpwd2 from './resetpwd/step2';
-import Opendevice from './opendevice';
+import Opendoor from './opendoor';
+import Closedoor from './closedoor';
 import Loginsel from './login/sel';
+import Createorder from './createorder';
+import Usercenter from './usercenter';
 
 
 import "../css/common.css";
@@ -41,9 +44,11 @@ class AppRoot extends React.Component {
                     <Route path="/register2" component={Register2} />
                     <Route path="/resetpwd" component={Resetpwd} />
                     <Route path="/resetpwd2" component={Resetpwd2} />
-                    <Route path="/opendevice" component={Opendevice} />
-                    
+                    <Route path="/opendoor" component={Opendoor} />
+                    <Route path="/closedoor" component={Closedoor} />
+                    <Route path="/createorder" component={Createorder} />
                     <Route path="/loginsel" component={Loginsel} />
+                    <Route path="/usercenter" component={Usercenter} />
                 </Switch>
             </div>
         );
