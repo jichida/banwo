@@ -3,7 +3,6 @@
  */
 import React from 'react';
 import { connect } from 'react-redux';
-import {map_setmapinited, carmapshow_destorymap, ui_setmapstyle} from '../actions';
 import { Route,Redirect,Switch} from 'react-router-dom';
 
 
@@ -26,7 +25,20 @@ import "../css/common.css";
 class AppRoot extends React.Component {
 
     componentWillMount() {
-        
+        // const script = document.createElement("script");
+        // script.src = "http://webapi.amap.com/maps?v=1.3&key=788e08def03f95c670944fe2c78fa76f&callback=init&&plugin=AMap.Geocoder,AMap.Scale,AMap.OverView,AMap.ToolBar,AMap.Driving";
+        // script.async = true;
+        // window.init = ()=>{
+        //       const scriptui = document.createElement("script");
+        //       scriptui.src = "http://webapi.amap.com/ui/1.0/main.js?v=1.0.10";
+        //       scriptui.async = true;
+        //       document.body.appendChild(scriptui);
+        //       scriptui.onload = ()=>{
+        //          window.initamaploaded = true;
+        //         this.props.dispatch(map_setmapinited(true));
+        //       }
+        // }
+        // document.body.appendChild(script);
     }
 
     componentWillUnmount() {

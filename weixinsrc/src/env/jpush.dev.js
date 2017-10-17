@@ -62,7 +62,7 @@ export const postNotifyFromJPush = (dispatch)=>{
         catch(e){
 
         }
-        dispatch(jpushlistenInMessage(jsonobj));
+        // dispatch(jpushlistenInMessage(jsonobj));
     }
     //点击了推送消息
     window.postNotification=(jsonstr)=>{
@@ -75,6 +75,6 @@ export const postNotifyFromJPush = (dispatch)=>{
         catch(e){
 
         }
-        dispatch(jpushpostNotification(jsonobj));
+        // dispatch(jpushpostNotification(jsonobj));
     }
 }
